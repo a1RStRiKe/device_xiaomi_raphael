@@ -1073,6 +1073,10 @@
         <item>org.lineageos.settings.fod.FodKeyHandler</item>
     </string-array>
 
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
+</resources>
+
     <!-- Library path of screen off fod handler -->
     <string name="config_fodScreenOffHandlerLib" translatable="false">/system/priv-app/XiaomiParts/XiaomiParts.apk</string>
 
