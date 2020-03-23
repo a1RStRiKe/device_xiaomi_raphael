@@ -32,6 +32,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="raphael" \
     TARGET_DEVICE="raphael"
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.titanium.maintainer=iamsaikat
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
