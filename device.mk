@@ -323,6 +323,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=0
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.xiaomi_raphael
